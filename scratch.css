@@ -1,0 +1,51 @@
+body {
+    background-color: #fdf6f9;
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #333;
+}
+
+.header {
+    padding: 30px;
+}
+
+.photo-section {
+    padding: 30px;
+}
+
+.bucket-section {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.links {
+    padding: 40px;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+img {
+    border: 5px solid pink;
+    border-radius: 10px;
+}
+.bucket-section {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+}
+.video-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.video-section a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d98ca9;
+}

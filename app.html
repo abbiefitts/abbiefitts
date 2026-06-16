@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Travel Destination Quiz</title>
+
+    <style>
+
+        body {
+            font-family: Georgia, serif;
+            text-align: center;
+            background-color: #fdf6f9;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #d98ca9;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #d98ca9;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>✈️ Travel Destination Quiz</h1>
+
+    <p>
+        Click the button to get a random destination from my bucket list!
+    </p>
+
+    <button onclick="showDestination()">
+        Pick a Destination
+    </button>
+
+    <p id="result"></p>
+
+    <script>
+
+        function showDestination() {
+
+            let destinations = [
+                "Japan 🇯🇵",
+                "South Korea 🇰🇷",
+                "Thailand 🇹🇭",
+                "London 🇬🇧",
+                "Egypt 🇪🇬"
+            ];
+
+            let random =
+                destinations[Math.floor(Math.random() * destinations.length)];
+
+            document.getElementById("result").innerHTML =
+                "You should visit: " + random;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
